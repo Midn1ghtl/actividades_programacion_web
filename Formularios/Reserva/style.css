@@ -1,0 +1,47 @@
+*{
+    margin:0; padding:0; box-sizing:border-box;
+    font-family:'Jost', sans-serif;
+}
+
+body{
+    margin:0; min-height:100vh; padding: 40px 16px; gap: 30px;
+    display:flex; align-items:center; justify-content:center;
+    background:
+    linear-gradient(180deg, rgba(6, 32, 48,.55), rgba(6,20,32,.75)),
+    url('pics/QUINNTANA.jpg') center/cover no-repeat;
+}
+
+.forms-container h2{
+    font-family:'Playfair Display', serif; color: #ffffff;
+    font-size:32px; float:left; width: 48%;
+    font-weight: 800px; letter-spacing:1px;
+}
+
+.tagline{
+    font-style: italic; color: #e0a94e;
+    text-align:center; margin:10px 0;
+}
+form{
+    padding:10px;
+    background:rgba(232, 213, 137, 0.408);
+    /* display:flex; flex-direction:column; */
+}
+
+form input, form select{
+    width:100%; padding:10px;
+    margin:10px 0; border-radius:5px;
+    border:none; outline:none;
+}
+
+form button{
+    width:100%; padding:10px;
+    border:none; outline:none;
+    background:#e1ae4f; color:#fff;
+    font-size:18px; cursor:pointer;
+    border-radius:5px;
+}
+
+video-container {
+    float: right;
+    width: 48%;
+}

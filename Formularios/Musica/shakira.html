@@ -1,0 +1,60 @@
+<!doctype html>
+<html lang="en" data-bs-theme="light">
+    <head>
+        <title>Title</title>
+        <!-- Required meta tags -->
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+
+    </head>
+
+    <body>
+        <header>
+            <!-- place navbar here -->
+        </header>
+        <header style="background-color:rgb(70, 4, 88); color:white; text-align:center; padding:10px;">
+            <h1>Reservación de entradas</h1>
+        </header>
+        <main align="center"><br>
+            <section id="registro">
+                <img src="img/banco.png" alt="Concierto de Shakira" width="200" height="200"><br><br>
+                
+                <form action="/registro.html" method="get" class="signup">
+                    <label for="fname"> Nombre: </label><br>
+                    <input type="text" id="fname" name="fname" required/><br><br>
+
+                    <label for="lname"> Apellido: </label><br>
+                    <input type="text" id="lname" name="lname" required/><br><br>
+
+                    <label for="numdui"> Documento Único de Identidad: </label><br>
+                    <input type="text" id="numdui" name="numdui" required/><br><br>
+
+                    <label for="fecha"> Fecha: </label><br><br>
+                    <input type="date" id="fecha" name="fecha" min="2026-08-10" max="2026-08-13" /><br><br>
+                    
+                    <label for="asiento">Asiento: </label><br>
+                    <input type="number" id="asiento" name="asiento" required/><br><br>
+
+                    <input type="submit" value="Submit"><br><br>
+
+                    <video width="320" height="240" controls>
+                        <source src="vid/Online Banking.mp4" type="video/mp4">
+                        Your browser does not support the video tag.
+                    </video><br>
+
+
+                </form>
+
+            </section>
+
+            <nav>
+                <a href="Menu.html">Regresar al menú</a>
+            </nav>
+        </main>
+        <footer>
+            <!-- place footer here -->
+        </footer>
+
+    </body>
+</html>

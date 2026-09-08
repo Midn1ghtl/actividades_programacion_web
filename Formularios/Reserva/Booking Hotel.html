@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Reserva Hotelera</title>
+</head>
+<body> 
+    <div class="forms-container">
+            <h2>QUINNTANA HOTEL</h2>
+            <p class="tagline">Donde la elegancia y el confort se encuentran en cada estancia.</p>
+
+            <form>
+            <label for="nombre">Nombre:</label>
+            <input type="text" id="nombre" placeholder="Ej.Daniela" required>
+            <label for="apellido">Apellido:</label>
+            <input type="text" id="apellido" placeholder="Ej.Mendez" required>
+            <div>
+                <label for="email">Email:</label>
+                <input type="email" id="email" placeholder="Ej.daniela@example.com" required>
+                <label for="telefono">Teléfono:</label>
+                <input type="tel" id="telefono" placeholder="503+ 0000-0000" required>
+            </div>
+            <div>
+                <label for="ciudad">Seleccione Sede del Hotel:</label>
+                <select id="ciudad" name="ciudad" required>
+                    <option value="">Seleccione una opción</option>
+                    <option value="la libertad">La Libertad</option>
+                    <option value="la paz">La Paz</option>
+                    <option value="sonsonate">Sonsonate</option>
+                    <option value="san miguel">San Miguel</option>
+                 </select>
+            </div>
+            <label for="fecha_entrada">Fecha de Entrada:</label>
+            <input type="date" id="fecha_entrada" name="fecha_entrada" required>
+
+            <label for="fecha_salida">Fecha de Salida:</label>
+            <input type="date" id="fecha_salida" name="fecha_salida" required>
+            <div>
+                <label for="adultos">Número de Adultos:</label>
+                <input type="number" id="adultos" name="adultos" min="1" value="1" required>
+                <label for="ninos">Número de Niños:</label> 
+                <input type="number" id="ninos" name="ninos" min="0" value="0" required>
+                <label for="habitacion">Tipo de Habitación:</label>
+                <select id="habitacion" name="habitacion" required>
+                    <option value="">Seleccione una opción</option>
+                    <option value="individual">Individual</option>
+                    <option value="doble">Doble</option>
+                    <option value="suite">Suite</option>
+                </select>
+            </div>
+                <label for="comentarios">Comentarios Adicionales:</label>
+                <textarea id="comentarios" name="comentarios" rows="4" placeholder="Escriba aquí cualquier solicitud especial o comentario adicional..."></textarea>
+
+            <button type="submit">CONSULTAR DISPONIBILIDAD</button>
+            </form>
+            <div class="video-container">
+                <video autoplay muted loop>
+                    <source src="WhatsApp Video 2026-09-07 at 5.11.46 PM.mp4" type="video/mp4">
+                </video>
+            </div>
+    </div>
+</body>
